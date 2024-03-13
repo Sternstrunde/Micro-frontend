@@ -1,7 +1,7 @@
 const router = require("koa-router")();
 
 router.get("/", async (ctx, next) => {
-  ctx.body = "/ route";
+  ctx.body = "根路径";
 });
 
 router.get("/string", async (ctx, next) => {

@@ -7,6 +7,7 @@ const filePath = {
   vue2: path.join(__dirname, "../vue2"),
   vue3: path.join(__dirname, "../vue3"),
   react18: path.join(__dirname, "../react18"),
+  service: path.join(__dirname, "../service"),
 };
 console.log(filePath);
 // cd 子应用的目录 npm start 启动项目

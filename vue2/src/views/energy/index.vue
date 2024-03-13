@@ -5,6 +5,12 @@
 <script>
 export default {
   name: "myEnergy",
+  methods: {
+    async getCarList() {},
+  },
+  mounted() {
+    this.getCarList();
+  },
 };
 </script>
 
